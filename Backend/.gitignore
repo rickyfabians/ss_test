@@ -1,0 +1,5 @@
+node_modules
+/typings
+src/debug.logs
+npm-debug.log.*
+*.log

@@ -1,0 +1,51 @@
+{
+  "name": "salestocktest",
+  "version": "1.0.0",
+  "description": "React with webpack and es6(babel)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --mode development"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "es6",
+    "bootstrap"
+  ],
+  "author": "Ricky Fabians",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.1.0",
+    "boom": "^7.2.0",
+    "bootstrap": "^4.1.3",
+    "css-loader": "^0.28.10",
+    "hoek": "^5.0.3",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.2",
+    "open-browser-webpack-plugin": "0.0.5",
+    "path": "^0.12.7",
+    "popper.js": "^1.14.3",
+    "postcss-loader": "^2.1.1",
+    "precss": "^3.1.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-infinite-scroll-component": "^4.2.0",
+    "react-lazyload": "^2.3.0",
+    "react-simple-infinite-scroll": "0.0.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.0.4",
+    "open-browser-webpack-plugin": "0.0.5",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.0"
+  }
+}

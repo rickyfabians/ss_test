@@ -1,0 +1,37 @@
+{
+    "DEVSERVER": {
+        "appVersion"        : "0.0.1",
+        "whitelist_domain"  : [
+            "http://localhost:3000",
+            "localhost:3001"
+        ],
+        "encryption"     : false,
+        "encryption_key" : "01234567890qwertyuiopasdfghjklzxcvbnm",
+        "port" : 4000,
+        "debug" : true,
+        "http" : {
+            "timeout" : 15000
+        },
+        "token" : {
+            "key" : "@cnJak@rta"
+        },
+        "db" : {
+            "dialect"  : "mysql",
+            "host"     : "localhost",
+            "username" : "root",
+            "password" : "",
+            "name"     : "salestock_db",
+            "port"     : 3306,
+            "timezone" : "+07:00",
+            "pool"     : {
+                "min"  : 0,
+                "max"  : 5,
+                "idle" : 10000
+            },
+            "dialectOptions" : {
+                "encrypt" : true,
+                "requestTimeout": 60000
+            }
+        }
+    }
+}

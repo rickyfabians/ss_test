@@ -1,0 +1,126 @@
+{
+	"info": {
+		"name": "SS_test",
+		"_postman_id": "68cd50d0-0131-c9e0-0717-a462ee3f5af5",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getProduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:4000/api/product/getProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"product",
+						"getProduct"
+					]
+				},
+				"description": "get all of products"
+			},
+			"response": []
+		},
+		{
+			"name": "insertProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"name\":\"Deacvr Abstr\", \n\"code\":\"SSI\",\n\"price\":\"369.000\",\n\"category\":\"Dress \",\n\"subcategory\":\"mini Dress\",\n\"color\":\"red\",\n\"stock\":\"20\",\n\"image\": \"https://ss-imager-prod.freetls.fastly.net/www-images/480/product_images/fc4200bed81307a5b6c0f7e6cf0bf968.jpg\",\n\"image_category\":\"\",\n\"image_subcategory\":\"\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/product/insertProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"product",
+						"insertProduct"
+					]
+				},
+				"description": "insert product"
+			},
+			"response": []
+		},
+		{
+			"name": "updateProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/product/getProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"product",
+						"getProduct"
+					]
+				},
+				"description": "update product"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":\"1\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/product/deleteProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"product",
+						"deleteProduct"
+					]
+				},
+				"description": "delete product"
+			},
+			"response": []
+		}
+	]
+}
